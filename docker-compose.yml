@@ -1,0 +1,8 @@
+services:
+  weather-fetcher:
+    build:
+      context: .
+    volumes:
+      - ./output:/app/output
+    tty: true
+    stdin_open: true
